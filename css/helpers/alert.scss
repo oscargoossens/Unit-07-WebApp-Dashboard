@@ -1,0 +1,12 @@
+.alert{
+  grid-area: alert;
+  background-color: $red;
+  padding: 16px;
+  margin: 16px;
+  color: rgba(255,255,255,0.8);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 100;
+  cursor: pointer;
+}

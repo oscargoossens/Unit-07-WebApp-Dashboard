@@ -1,0 +1,18 @@
+.tabs{
+  grid-area: tabs;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: calc( 100vw - 80px );
+  a{
+    border-right: 1px solid $grey;
+    padding: 16px 24px;
+    background-color: $bg;
+  }
+  .filler{
+    background-color: $light-grey;
+    border-bottom: 1px solid $grey;
+    flex-grow: 1;
+    align-self: flex-end;
+  }
+}

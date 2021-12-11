@@ -1,0 +1,9 @@
+.widget-xl{
+  padding: 16px;
+  width: auto;
+}
+.widget-sm{
+  padding: 16px;
+  width: calc( 50vw - 40px);
+  border: 1px solid $light-grey;
+}

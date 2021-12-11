@@ -1,0 +1,53 @@
+.social{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  grid-area: social;
+  h1{
+    width: 100%;
+    margin: 8px 0 8px auto;
+  }
+  &:nth-child(1), &:nth-child(2){
+    margin-right: 16px;
+  }
+  &>div{
+    width: 33%;
+    padding: 24px;
+    background-color: $light-grey;
+    border-radius:8px;
+    border-color: $grey;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    img{
+      height: 32px;
+      width: 32px;
+      top: 16px;
+      left: 16px;
+      position: relative;
+    }
+    sub{
+      color: $light-purple;
+      font-size: 20px;
+      left: 80px;
+      position: relative;
+    }
+    p{
+      color: $dark-grey;
+      font-size: 40px;
+      font-weight: 100;
+      left: 80px;
+      position: relative;
+    }
+  }
+}
+
+.image-decoration{
+  position: absolute;
+  height:64px;
+  width: 64px;
+  background-color: $light-purple;
+  border-radius: 50%;
+  margin-right: 16px;
+}

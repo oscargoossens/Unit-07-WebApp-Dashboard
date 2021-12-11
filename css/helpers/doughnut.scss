@@ -1,0 +1,10 @@
+.doughnut{
+  grid-area: doughnut;
+    width: calc( 50vw - 40px ) !important;
+  h1{
+    width: 100%;
+  }
+  canvas{
+    width: calc( 50vw - 72px ) !important;
+  }
+}
