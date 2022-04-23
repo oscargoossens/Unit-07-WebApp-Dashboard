@@ -1,4 +1,4 @@
-.people-list, .activity-list{
+.member-list, .activity-list{
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -34,7 +34,7 @@
   }
 }
 
-.people-list{
+.member-list{
   grid-area: member-list;
   .people p:nth-of-type(2){
     font-style: normal;

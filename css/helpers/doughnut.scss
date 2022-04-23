@@ -1,10 +1,25 @@
 .doughnut{
   grid-area: doughnut;
-    width: calc( 50vw - 40px ) !important;
+    width: calc( 50vw - 40px );
   h1{
     width: 100%;
   }
-  canvas{
-    width: calc( 50vw - 72px ) !important;
+  .doughnut-box{
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    canvas{
+      width: calc( 50vw - 72px );
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .doughnut{
+    .doughnut-box{
+      canvas{
+        width: 80%;
+      }
+    }
   }
 }

@@ -122,6 +122,7 @@ const dough = new Chart(doughnut, {
         }]
     },
     options: {
+      maintainAspectRatio:true,
         interactions:{
             mode:"index"
         },
@@ -130,8 +131,12 @@ const dough = new Chart(doughnut, {
             boxWidth:'200px',
             position:'right',
             align: 'center',
-            fullSize:'true'
+            fullSize:'false'
           }
         }
     }
 });
+
+var LayoutItem ={
+  width: '200px'
+}

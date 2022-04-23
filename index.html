@@ -59,7 +59,9 @@
         </div>
         <div class="widget-sm doughnut">
           <h1>Mobile Users</h1>
-          <canvas id="doughnut" width="100%"></canvas>
+          <div class="doughnut-box">
+            <canvas id="doughnut" width="80px"></canvas>
+          </div>
         </div>
         <div class="widget-xl social">
           <h1>Social Stats</h1>
@@ -91,7 +93,7 @@
             </div>
           </div>
         </div>
-        <div class="widget-sm people-list">
+        <div class="widget-sm member-list">
           <h1>New Members</h1>
           <div class="people">
             <img src="images/member-1.jpg" alt="Eliza Taylor">
@@ -179,6 +181,15 @@
         </div>
         <div class="widget-sm messages">
           <h1>Message User</h1>
+          <div class="selected">
+          </div>
+          <div class="select-box">
+            <div class="option-container">
+              <div class="option">
+                <input type="radio" name="radio" value="Anne Suotinen" id="anne-suotinen">
+              </div>
+            </div>
+          </div>
           <input type="text" name="" value="" placeholder="Search for User">
           <textarea name="name" rows="8" cols="80" type="text" value="" placeholder="Message for User"></textarea>
           <button type="submit" name="button">SEND</button>

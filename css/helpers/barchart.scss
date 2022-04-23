@@ -1,8 +1,8 @@
 .barchart{
   grid-area: barchart;
   display: grid;
-    width: calc( 50vw - 40px ) !important;
+    width: calc( 50vw - 40px );
   #barchart{
-    width: calc( 50vw - 72px ) !important;
+    width: calc( 50vw - 72px );
   }
 }

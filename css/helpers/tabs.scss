@@ -11,8 +11,10 @@
   }
   .filler{
     background-color: $light-grey;
+    opacity: 0.5;
     border-bottom: 1px solid $grey;
     flex-grow: 1;
     align-self: flex-end;
+    height: 100%;
   }
 }

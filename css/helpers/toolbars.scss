@@ -1,5 +1,6 @@
 .toolbar{
   width: 80px;
+  grid-template-areas: toolbar;
   background-color: $purple-dark;
   height: 100%;
   display: flex;
